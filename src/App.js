@@ -40,13 +40,13 @@ const App = () => {
 	return (
 		 <div>
 			<div className={classes.logoContainer}>
-				<img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="logo" />
+				<img src="/alan-ai.png" className={classes.alanLogo} alt="logo" />
 			</div>
 			<NewsCards articles={newsArticles} activeArticle={activeArticle} />
 			<div className={classes.footer}>
 				<Typography variant="body1" component="h2">
 					A project by
-					<a className={classes.link} href="https://www.linkedin.com/in/htuwar08/"> Harsh Tuwar</a>
+					<a className={classes.link} href="https://www.linkedin.com/in/tuwar08/"> Harsh Tuwar</a>
 				</Typography>
 			</div>
 		</div>
